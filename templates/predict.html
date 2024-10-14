@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Price Prediction</title>
+</head>
+<body>
+    <h1>Crop Price Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="state">State:</label><br>
+        <input type="text" id="state" name="state" required><br><br>
+        
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+        
+        <label for="crop_type">Crop Type:</label><br>
+        <input type="text" id="crop_type" name="crop_type" required><br><br>
+        
+        <label for="season">Season:</label><br>
+        <input type="text" id="season" name="season" required><br><br>
+        
+        <label for="temperature">Temperature (°C):</label><br>
+        <input type="number" step="any" id="temperature" name="temperature" required><br><br>
+        
+        <label for="rainfall">Rainfall (mm):</label><br>
+        <input type="number" step="any" id="rainfall" name="rainfall" required><br><br>
+        
+        <label for="supply_volume">Supply Volume (tons):</label><br>
+        <input type="number" step="any" id="supply_volume" name="supply_volume" required><br><br>
+        
+        <label for="demand_volume">Demand Volume (tons):</label><br>
+        <input type="number" step="any" id="demand_volume" name="demand_volume" required><br><br>
+        
+        <label for="transport_cost">Transportation Cost (₹/ton):</label><br>
+        <input type="number" step="any" id="transport_cost" name="transport_cost" required><br><br>
+        
+        <label for="fertilizer_usage">Fertilizer Usage (kg/hectare):</label><br>
+        <input type="number" step="any" id="fertilizer_usage" name="fertilizer_usage" required><br><br>
+        
+        <label for="pest_infestation">Pest Infestation (0-1):</label><br>
+        <input type="number" step="any" id="pest_infestation" name="pest_infestation" required><br><br>
+        
+        <label for="market_competition">Market Competition (0-1):</label><br>
+        <input type="number" step="any" id="market_competition" name="market_competition" required><br><br>
+        
+        <label for="year">Year:</label><br>
+        <input type="number" id="year" name="year" required><br><br>
+        
+        <label for="month">Month:</label><br>
+        <input type="text" id="month" name="month" required><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

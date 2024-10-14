@@ -1,0 +1,11 @@
+Flask
+pandas
+numpy
+matplotlib
+scikit-learn==1.3.2
+seaborn
+setuptools
+prophet
+cloudpickle==2.2.1
+CORS
+flask_cors
